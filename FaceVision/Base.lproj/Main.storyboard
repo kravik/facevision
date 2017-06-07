@@ -27,7 +27,7 @@
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" id="6Sj-P6-OJQ">
+                                    <barButtonItem systemItem="camera" id="6Sj-P6-OJQ">
                                         <connections>
                                             <action selector="selectImageWithSender:" destination="BYZ-38-t0r" id="jjg-GH-JNF"/>
                                         </connections>

@@ -116,7 +116,7 @@ class FaceDetector {
         for faceLandmarkRegion in faceLandmarkRegions {
             var points: [CGPoint] = []
             for i in 0..<faceLandmarkRegion.pointCount {
-                let point = faceLandmarkRegion.point(at: i)
+                let point = faceLandmarkRegion.normalizedPoints[i]
                 let p = CGPoint(x: CGFloat(point.x), y: CGFloat(point.y))
                 points.append(p)
             }
